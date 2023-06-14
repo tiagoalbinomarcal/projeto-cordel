@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+}
+
+/* H E A D E R */
+
+header{
+    background-color: black;
+    color: white;
+    padding: 1px;
+
+}
+
+#title{
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    text-align: center;
+}
+
+h1{
+    font-family: Passion One;
+    font-size: 600%;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: right;
+}
+
+h2#md {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+/* MAIN */
+
+main{
+    padding: 20px;
+    margin-top: 50px;
+}
+
+main p{
+    font-family: sriracha;
+    font-size: 3.5vw;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+div.especial#imagem1{
+    background-image: url(images/natureza.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+
+    padding: 20px;
+
+    margin: 100px -20px 100px -20px;
+
+    box-shadow: inset 8px 5px 13px rgba(0, 0, 0, 0.354);
+
+}
+
+div.especial#imagem2{
+    background-image: url(images/livro.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+
+    padding: 20px;
+
+    margin: 100px -20px 100px -20px;
+
+    box-shadow: inset 8px 5px 13px rgba(0, 0, 0, 0.354);
+
+}
+
+div.especial > p{
+    background-color: rgba(0, 0, 0, 0.45);
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+
+/* F O O T E R */
+footer > span{
+    background-color: black;
+    display: block;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+footer > span > a{
+    text-decoration: none;
+    color: white;
+}
